@@ -22,7 +22,7 @@ body {
 
 .parallax-container h1 {
     color: white;
-    font-size: 9.5rem;
+    font-size: 12vw;
     position: absolute;
     top: 35%;
     left: 50%;
@@ -38,7 +38,7 @@ body {
 }
 
 .parallax-container img.birds {
-    width: 27rem;
+    width: 32vw;
     opacity: 0.9;
 }
 
@@ -64,4 +64,38 @@ body {
 .section h2{
     color: white;
 }
+
+/* ---------------------------media query----------------------- */
+
+@media (max-width : 1000px) {
+    .section {
+        margin-top: -42vh;
+    }
+
+    .parallax-container h1 {
+        top: 30%;
+    }
+}
+
+
+@media (max-width : 760px) {
+    .section {
+        margin-top: -78vh;
+    }
+
+    .parallax-container h1 {
+        top: 20%;
+    }
+}
+
+@media (max-width : 460px) {
+    .section {
+        margin-top: -93vh;
+    }
+
+    .parallax-container h1 {
+        top: 15%;
+    }
+}
+
 
